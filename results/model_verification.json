@@ -1,0 +1,119 @@
+{
+  "MobileViT-S": {
+    "key": "mobilevit_s.cvnets_in1k",
+    "status": "PASS",
+    "params_M": 4.94,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "MobileViT-XS": {
+    "key": "mobilevit_xs.cvnets_in1k",
+    "status": "PASS",
+    "params_M": 1.93,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "EfficientFormer-L1": {
+    "key": "efficientformer_l1.snap_dist_in1k",
+    "status": "PASS",
+    "params_M": 11.39,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "FastViT-T8": {
+    "key": "fastvit_t8.apple_in1k",
+    "status": "PASS",
+    "params_M": 3.26,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "FastViT-T12": {
+    "key": "fastvit_t12.apple_in1k",
+    "status": "PASS",
+    "params_M": 6.53,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "TinyViT-5M": {
+    "key": "tiny_vit_5m_224.dist_in22k_ft_in1k",
+    "status": "PASS",
+    "params_M": 5.07,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "TinyViT-11M": {
+    "key": "tiny_vit_11m_224.dist_in22k_ft_in1k",
+    "status": "PASS",
+    "params_M": 10.55,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "EdgeNeXt-S": {
+    "key": "edgenext_small.usi_in1k",
+    "status": "PASS",
+    "params_M": 5.28,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "EdgeNeXt-XS": {
+    "key": "edgenext_x_small.in1k",
+    "status": "PASS",
+    "params_M": 2.14,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "ViT-B/16": {
+    "key": "vit_base_patch16_224.augreg_in21k_ft_in1k",
+    "status": "PASS",
+    "params_M": 85.8,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "EfficientNet-B0": {
+    "key": "efficientnet_b0.ra_in1k",
+    "status": "PASS",
+    "params_M": 4.01,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "ConvNeXt-T": {
+    "key": "convnext_tiny.fb_in1k",
+    "status": "PASS",
+    "params_M": 27.82,
+    "out": [
+      1,
+      2
+    ]
+  },
+  "ResNet-50": {
+    "key": "resnet50.a1_in1k",
+    "status": "PASS",
+    "params_M": 23.51,
+    "out": [
+      1,
+      2
+    ]
+  }
+}

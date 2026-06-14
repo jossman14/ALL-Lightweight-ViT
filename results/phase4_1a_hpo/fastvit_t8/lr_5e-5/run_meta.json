@@ -1,0 +1,39 @@
+{
+  "commit_sha": "N/A",
+  "config": {
+    "model": "fastvit_t8",
+    "model_key": "fastvit_t8.apple_in1k",
+    "lr": 5e-05,
+    "is_dinobloom": false,
+    "is_linear_probe": false,
+    "dinobloom_variant": null,
+    "status": "COMPLETE",
+    "best_val_bal_acc": 0.90304,
+    "best_epoch": 43,
+    "total_epochs": 58,
+    "batch_size": 32,
+    "peak_vram_mb": 2117.7,
+    "total_time_s": 1314.5,
+    "gpu_hours": 0.3651,
+    "n_params_M": 3.26,
+    "n_trainable_M": 3.26,
+    "weight_decay": 0.05,
+    "layer_decay": 0.65,
+    "warmup_epochs": 5,
+    "seed": 42
+  },
+  "seeds": {
+    "python": 42,
+    "numpy": 42,
+    "torch": 42,
+    "cuda": 42
+  },
+  "hardware": {
+    "gpu": "NVIDIA RTX A4000",
+    "cuda_version": "12.1",
+    "pytorch_version": "2.3.1+cu121"
+  },
+  "start_time": "2026-06-14T18:21:40.260877",
+  "end_time": "2026-06-14T18:43:34.781611",
+  "command": "python hpo_sweep.py --model fastvit_t8 --lr 5e-05"
+}

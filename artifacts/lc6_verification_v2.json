@@ -1,0 +1,188 @@
+{
+  "ALL-IDB-1": {
+    "dataset": "ALL-IDB-1",
+    "original_labels": [
+      "cancer",
+      "non cancer"
+    ],
+    "integer_mapping": {
+      "cancer": 0,
+      "non cancer": 1
+    },
+    "sample_class_balance": {
+      "cancer": 49,
+      "non cancer": 59
+    },
+    "binary_remap": {
+      "cancer": "blast_positive",
+      "non cancer": "normal"
+    },
+    "visual_verified": true,
+    "verdict": "PASS"
+  },
+  "ALL-IDB-2": {
+    "dataset": "ALL-IDB-2",
+    "original_labels": [
+      "Blast",
+      "nonblast"
+    ],
+    "integer_mapping": {
+      "Blast": 0,
+      "nonblast": 1
+    },
+    "sample_class_balance": {
+      "Blast": 130,
+      "nonblast": 130
+    },
+    "binary_remap": {
+      "Blast": "blast (label=1)",
+      "nonblast": "normal (label=0)"
+    },
+    "visual_verified": true,
+    "verdict": "PASS"
+  },
+  "ALL_Image_PBS": {
+    "dataset": "ALL_Image_PBS",
+    "original_labels": [
+      "Benign",
+      "Early",
+      "Pre",
+      "Pro"
+    ],
+    "integer_mapping": {
+      "Benign": 0,
+      "Early": 1,
+      "Pre": 2,
+      "Pro": 3
+    },
+    "sample_class_balance": {
+      "Benign": 504,
+      "Early": 985,
+      "Pre": 963,
+      "Pro": 804
+    },
+    "binary_remap": {
+      "Benign": "non-blast (label=0)",
+      "Early+Pre+Pro": "blast (label=1)"
+    },
+    "visual_verified": true,
+    "verdict": "PASS",
+    "notes": "4-class: Benign=504, Early=985, Pre=963, Pro=804. Binary remap: Benign -> 0 (non-blast), Early+Pre+Pro -> 1 (blast)."
+  },
+  "D05_Acevedo_PBC": {
+    "dataset": "D05_Acevedo_PBC",
+    "original_labels": [
+      "basophil",
+      "eosinophil",
+      "erythroblast",
+      "ig",
+      "lymphocyte",
+      "monocyte",
+      "neutrophil",
+      "platelet"
+    ],
+    "integer_mapping": {
+      "basophil": 0,
+      "eosinophil": 1,
+      "erythroblast": 2,
+      "ig": 3,
+      "lymphocyte": 4,
+      "monocyte": 5,
+      "neutrophil": 6,
+      "platelet": 7
+    },
+    "sample_class_balance": {
+      "basophil": 1218,
+      "eosinophil": 3117,
+      "erythroblast": 1551,
+      "ig": 2895,
+      "lymphocyte": 1214,
+      "monocyte": 1420,
+      "neutrophil": 3330,
+      "platelet": 2348
+    },
+    "visual_verified": true,
+    "verdict": "PASS"
+  },
+  "D06_Raabin_WBC": {
+    "dataset": "D06_Raabin_WBC",
+    "original_labels": [
+      "Basophil",
+      "Eosinophil",
+      "Lymphocyte",
+      "Monocyte",
+      "Neutrophil"
+    ],
+    "integer_mapping": {
+      "Basophil": 0,
+      "Eosinophil": 1,
+      "Lymphocyte": 2,
+      "Monocyte": 3,
+      "Neutrophil": 4
+    },
+    "sample_class_balance": {
+      "Basophil": 301,
+      "Eosinophil": 1066,
+      "Lymphocyte": 3609,
+      "Monocyte": 795,
+      "Neutrophil": 10862
+    },
+    "visual_verified": true,
+    "notes": "5 normal WBC types. Staining anchor for Layer C (Wright-Giemsa). Pre-split Train/Test-A/Test-B.",
+    "verdict": "PASS"
+  },
+  "C-NMC_2019": {
+    "dataset": "C-NMC_2019",
+    "original_labels": {
+      "all": "ALL blast (cancer)",
+      "hem": "Normal hematogone (healthy)"
+    },
+    "integer_mapping": {
+      "all": 1,
+      "hem": 0
+    },
+    "sample_class_balance": {
+      "all": 7272,
+      "hem": 3389
+    },
+    "visual_verified": true,
+    "notes": "'all' = blast positive (n=7272 train), 'hem' = normal (n=3389 train). NOT inverted. Patient boundaries clean (0 overlap across official train/test). 5-fold StratifiedGroupKFold generated with 0 patient overlap per fold.",
+    "verdict": "PASS"
+  },
+  "D12_BloodMNIST": {
+    "dataset": "D12_BloodMNIST",
+    "original_labels": [
+      "basophil",
+      "eosinophil",
+      "erythroblast",
+      "immature_granulocyte",
+      "lymphocyte",
+      "monocyte",
+      "neutrophil",
+      "platelet"
+    ],
+    "integer_mapping": {
+      "basophil": 0,
+      "eosinophil": 1,
+      "erythroblast": 2,
+      "immature_granulocyte": 3,
+      "lymphocyte": 4,
+      "monocyte": 5,
+      "neutrophil": 6,
+      "platelet": 7
+    },
+    "sample_class_balance": {
+      "platelet": 2348,
+      "immature_granulocyte": 2895,
+      "neutrophil": 3329,
+      "erythroblast": 1551,
+      "eosinophil": 3117,
+      "monocyte": 1420,
+      "basophil": 1218,
+      "lymphocyte": 1214
+    },
+    "visual_verified": true,
+    "notes": "MedMNIST official encoding. 8 WBC types. No blast classes \u2014 sanity benchmark only.",
+    "verdict": "PASS"
+  }
+}

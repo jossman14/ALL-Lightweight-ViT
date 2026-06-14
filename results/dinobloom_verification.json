@@ -1,0 +1,42 @@
+{
+  "DinoBloom-S": {
+    "status": "PASS",
+    "params_M": 21.6,
+    "output_dim": 384,
+    "commit_hash": "e025b6824330fc57b3b9dfe1f66ec5141c1bc4ff",
+    "checkpoint": "pytorch_model_s.bin",
+    "normalization": {
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    },
+    "normalization_matches_imagenet": true
+  },
+  "DinoBloom-B": {
+    "status": "PASS",
+    "params_M": 85.7,
+    "output_dim": 768,
+    "commit_hash": "e025b6824330fc57b3b9dfe1f66ec5141c1bc4ff",
+    "checkpoint": "pytorch_model_b.bin",
+    "normalization": {
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    },
+    "normalization_matches_imagenet": true
+  }
+}

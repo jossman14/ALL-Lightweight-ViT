@@ -1,0 +1,22 @@
+{
+  "model": "fastvit_t8",
+  "model_key": "fastvit_t8.apple_in1k",
+  "lr": 0.0005,
+  "is_dinobloom": false,
+  "is_linear_probe": false,
+  "dinobloom_variant": null,
+  "status": "COMPLETE",
+  "best_val_bal_acc": 0.9412,
+  "best_epoch": 51,
+  "total_epochs": 66,
+  "batch_size": 32,
+  "peak_vram_mb": 2117.7,
+  "total_time_s": 1501.0,
+  "gpu_hours": 0.4169,
+  "n_params_M": 3.26,
+  "n_trainable_M": 3.26,
+  "weight_decay": 0.05,
+  "layer_decay": 0.65,
+  "warmup_epochs": 5,
+  "seed": 42
+}

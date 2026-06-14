@@ -1,0 +1,22 @@
+{
+  "model": "mobilevit_s",
+  "model_key": "mobilevit_s.cvnets_in1k",
+  "lr": 5e-05,
+  "is_dinobloom": false,
+  "is_linear_probe": false,
+  "dinobloom_variant": null,
+  "status": "COMPLETE",
+  "best_val_bal_acc": 0.91855,
+  "best_epoch": 48,
+  "total_epochs": 63,
+  "batch_size": 32,
+  "peak_vram_mb": 4669.2,
+  "total_time_s": 1564.7,
+  "gpu_hours": 0.4346,
+  "n_params_M": 4.94,
+  "n_trainable_M": 4.94,
+  "weight_decay": 0.05,
+  "layer_decay": 0.65,
+  "warmup_epochs": 5,
+  "seed": 42
+}

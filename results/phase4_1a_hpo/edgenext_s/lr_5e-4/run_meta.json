@@ -1,0 +1,39 @@
+{
+  "commit_sha": "N/A",
+  "config": {
+    "model": "edgenext_s",
+    "model_key": "edgenext_small.usi_in1k",
+    "lr": 0.0005,
+    "is_dinobloom": false,
+    "is_linear_probe": false,
+    "dinobloom_variant": null,
+    "status": "COMPLETE",
+    "best_val_bal_acc": 0.93288,
+    "best_epoch": 49,
+    "total_epochs": 64,
+    "batch_size": 32,
+    "peak_vram_mb": 2088.0,
+    "total_time_s": 1501.4,
+    "gpu_hours": 0.4171,
+    "n_params_M": 5.28,
+    "n_trainable_M": 5.28,
+    "weight_decay": 0.05,
+    "layer_decay": 0.65,
+    "warmup_epochs": 5,
+    "seed": 42
+  },
+  "seeds": {
+    "python": 42,
+    "numpy": 42,
+    "torch": 42,
+    "cuda": 42
+  },
+  "hardware": {
+    "gpu": "NVIDIA RTX A4000",
+    "cuda_version": "12.1",
+    "pytorch_version": "2.3.1+cu121"
+  },
+  "start_time": "2026-06-14T16:31:59.254528",
+  "end_time": "2026-06-14T16:57:00.675739",
+  "command": "python hpo_sweep.py --model edgenext_s --lr 0.0005"
+}

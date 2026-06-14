@@ -1,0 +1,86 @@
+{
+  "mscfa_standalone": {
+    "params": 176930,
+    "params_M": 0.177,
+    "output_shape": [
+      4,
+      2
+    ],
+    "grad_flow": true,
+    "status": "PASS"
+  },
+  "cafl_standalone": {
+    "loss_value": 0.758,
+    "is_scalar": true,
+    "grad_flow": "tensor(True)",
+    "alpha": [
+      1.25,
+      0.75
+    ],
+    "status": "PASS"
+  },
+  "fastvit_t8_mscfa": {
+    "meta": {
+      "base_key": "fastvit_t8.apple_in1k",
+      "channels": [
+        96,
+        192,
+        384
+      ],
+      "out_indices": [
+        1,
+        2,
+        3
+      ],
+      "backbone_params_M": 3.172,
+      "head_params_M": 0.177,
+      "total_params_M": 3.349,
+      "head_overhead_pct": 5.6,
+      "d": 96,
+      "num_heads": 2
+    },
+    "output_shape": [
+      32,
+      2
+    ],
+    "forward_backward": "PASS",
+    "peak_vram_mb": 1112.0,
+    "loss_value": 0.7591
+  },
+  "mobilevit_xs_mscfa": {
+    "meta": {
+      "base_key": "mobilevit_xs.cvnets_in1k",
+      "channels": [
+        64,
+        80,
+        384
+      ],
+      "out_indices": [
+        2,
+        3,
+        4
+      ],
+      "backbone_params_M": 1.933,
+      "head_params_M": 0.163,
+      "total_params_M": 2.096,
+      "head_overhead_pct": 8.4,
+      "d": 96,
+      "num_heads": 2
+    },
+    "output_shape": [
+      32,
+      2
+    ],
+    "forward_backward": "PASS",
+    "peak_vram_mb": 1983.0,
+    "loss_value": 1.8843
+  },
+  "baseline_path": {
+    "output_shape": [
+      4,
+      2
+    ],
+    "loss_value": 0.7764,
+    "status": "UNMODIFIED"
+  }
+}

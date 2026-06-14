@@ -1,0 +1,306 @@
+{
+  "ALL-IDB-1": {
+    "dataset": "ALL-IDB-1",
+    "tier": "T1",
+    "path": "/home/ftib/Knowledge-Distillation/datasets/all-idb-1",
+    "total_images": 108,
+    "class_distribution": {
+      "cancer": {
+        "count": 49,
+        "pct": 45.4
+      },
+      "non cancer": {
+        "count": 59,
+        "pct": 54.6
+      }
+    },
+    "imbalance_ratio": 1.2,
+    "image_metadata": {
+      "resolution_width": {
+        "min": 1226,
+        "max": 2592,
+        "median": 1712
+      },
+      "resolution_height": {
+        "min": 652,
+        "max": 1944,
+        "median": 1368
+      },
+      "color_modes": [
+        "RGB"
+      ],
+      "file_formats": [
+        ".jpg"
+      ]
+    },
+    "duplicate_check": {
+      "checked": 108,
+      "duplicates": 1
+    },
+    "sample_visualization": "/home/ftib/ALL-Lightweight-ViT/artifacts/eda/ALL-IDB-1_samples.png"
+  },
+  "ALL-IDB-2": {
+    "dataset": "ALL-IDB-2",
+    "tier": "T1",
+    "path": "/home/ftib/Knowledge-Distillation/datasets/all-idb-2",
+    "total_images": 260,
+    "class_distribution": {
+      "Blast": {
+        "count": 130,
+        "pct": 50.0
+      },
+      "nonblast": {
+        "count": 130,
+        "pct": 50.0
+      }
+    },
+    "imbalance_ratio": 1.0,
+    "image_metadata": {
+      "resolution_width": {
+        "min": 300,
+        "max": 300,
+        "median": 300
+      },
+      "resolution_height": {
+        "min": 300,
+        "max": 300,
+        "median": 300
+      },
+      "color_modes": [
+        "RGB"
+      ],
+      "file_formats": [
+        ".jpg"
+      ]
+    },
+    "duplicate_check": {
+      "checked": 200,
+      "duplicates": 0
+    },
+    "sample_visualization": "/home/ftib/ALL-Lightweight-ViT/artifacts/eda/ALL-IDB-2_samples.png"
+  },
+  "ALL_Image_PBS": {
+    "dataset": "ALL_Image_PBS",
+    "tier": "T1",
+    "path": "/home/ftib/Knowledge-Distillation/datasets/leukemia-taleqani",
+    "total_images": 3256,
+    "class_distribution": {
+      "Benign": {
+        "count": 504,
+        "pct": 15.5
+      },
+      "Early": {
+        "count": 985,
+        "pct": 30.3
+      },
+      "Pre": {
+        "count": 963,
+        "pct": 29.6
+      },
+      "Pro": {
+        "count": 804,
+        "pct": 24.7
+      }
+    },
+    "imbalance_ratio": 1.95,
+    "image_metadata": {
+      "resolution_width": {
+        "min": 224,
+        "max": 224,
+        "median": 224
+      },
+      "resolution_height": {
+        "min": 224,
+        "max": 224,
+        "median": 224
+      },
+      "color_modes": [
+        "RGB"
+      ],
+      "file_formats": [
+        ".jpg"
+      ]
+    },
+    "duplicate_check": {
+      "checked": 400,
+      "duplicates": 17
+    },
+    "sample_visualization": "/home/ftib/ALL-Lightweight-ViT/artifacts/eda/ALL_Image_PBS_samples.png"
+  },
+  "D05_Acevedo_PBC": {
+    "dataset": "D05_Acevedo_PBC",
+    "tier": "T4",
+    "path": "/home/ftib/Knowledge-Distillation/datasets/pbc-mendeley/PBC_dataset_normal_DIB",
+    "total_images": 17093,
+    "class_distribution": {
+      "basophil": {
+        "count": 1218,
+        "pct": 7.1
+      },
+      "eosinophil": {
+        "count": 3117,
+        "pct": 18.2
+      },
+      "erythroblast": {
+        "count": 1551,
+        "pct": 9.1
+      },
+      "ig": {
+        "count": 2895,
+        "pct": 16.9
+      },
+      "lymphocyte": {
+        "count": 1214,
+        "pct": 7.1
+      },
+      "monocyte": {
+        "count": 1420,
+        "pct": 8.3
+      },
+      "neutrophil": {
+        "count": 3330,
+        "pct": 19.5
+      },
+      "platelet": {
+        "count": 2348,
+        "pct": 13.7
+      }
+    },
+    "imbalance_ratio": 2.74,
+    "image_metadata": {
+      "resolution_width": {
+        "min": 360,
+        "max": 366,
+        "median": 360
+      },
+      "resolution_height": {
+        "min": 360,
+        "max": 369,
+        "median": 363
+      },
+      "color_modes": [
+        "RGB"
+      ],
+      "file_formats": [
+        ".jpg"
+      ]
+    },
+    "duplicate_check": {
+      "checked": 800,
+      "duplicates": 0
+    },
+    "sample_visualization": "/home/ftib/ALL-Lightweight-ViT/artifacts/eda/D05_Acevedo_PBC_samples.png"
+  },
+  "D06_Raabin_WBC": {
+    "dataset": "D06_Raabin_WBC",
+    "tier": "T4",
+    "total_images": 16633,
+    "class_distribution": {
+      "Basophil": {
+        "count": 301,
+        "pct": 1.8
+      },
+      "Eosinophil": {
+        "count": 1066,
+        "pct": 6.4
+      },
+      "Lymphocyte": {
+        "count": 3609,
+        "pct": 21.7
+      },
+      "Monocyte": {
+        "count": 795,
+        "pct": 4.8
+      },
+      "Neutrophil": {
+        "count": 10862,
+        "pct": 65.3
+      }
+    },
+    "imbalance_ratio": 36.09,
+    "image_metadata": {
+      "resolution": "575x575",
+      "mode": "RGB"
+    },
+    "splits": {
+      "Train": 5,
+      "Test-A": 5,
+      "Test-B": 2
+    }
+  },
+  "C-NMC_2019": {
+    "dataset": "C-NMC_2019",
+    "tier": "T1",
+    "path": "/home/ftib/ALL-Lightweight-ViT/data/cnmc_2019",
+    "train_count": 10661,
+    "test_count": 1867,
+    "train_distribution": {
+      "all": 7272,
+      "hem": 3389
+    },
+    "test_distribution": {
+      "cancer": 1219,
+      "healthy": 648
+    },
+    "patient_audit": {
+      "train_patients": 73,
+      "test_patients": 28,
+      "overlap": 0
+    },
+    "image_metadata": {
+      "resolution": "450x450",
+      "mode": "RGB",
+      "format": ".bmp"
+    }
+  },
+  "D12_BloodMNIST": {
+    "dataset": "D12_BloodMNIST",
+    "tier": "T5",
+    "total_images": 17092,
+    "class_distribution": {
+      "basophil": {
+        "count": 1218,
+        "pct": 7.1
+      },
+      "eosinophil": {
+        "count": 3117,
+        "pct": 18.2
+      },
+      "erythroblast": {
+        "count": 1551,
+        "pct": 9.1
+      },
+      "immature_granulocyte": {
+        "count": 2895,
+        "pct": 16.9
+      },
+      "lymphocyte": {
+        "count": 1214,
+        "pct": 7.1
+      },
+      "monocyte": {
+        "count": 1420,
+        "pct": 8.3
+      },
+      "neutrophil": {
+        "count": 3329,
+        "pct": 19.5
+      },
+      "platelet": {
+        "count": 2348,
+        "pct": 13.7
+      }
+    },
+    "imbalance_ratio": 2.74,
+    "splits": {
+      "train": 11959,
+      "val": 1712,
+      "test": 3421
+    },
+    "image_metadata": {
+      "resolution": "224x224",
+      "channels": 3,
+      "format": "NPZ"
+    }
+  }
+}

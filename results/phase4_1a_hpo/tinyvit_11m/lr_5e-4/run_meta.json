@@ -1,0 +1,39 @@
+{
+  "commit_sha": "N/A",
+  "config": {
+    "model": "tinyvit_11m",
+    "model_key": "tiny_vit_11m_224.dist_in22k_ft_in1k",
+    "lr": 0.0005,
+    "is_dinobloom": false,
+    "is_linear_probe": false,
+    "dinobloom_variant": null,
+    "status": "COMPLETE",
+    "best_val_bal_acc": 0.9278,
+    "best_epoch": 33,
+    "total_epochs": 48,
+    "batch_size": 32,
+    "peak_vram_mb": 3503.4,
+    "total_time_s": 1166.7,
+    "gpu_hours": 0.3241,
+    "n_params_M": 10.55,
+    "n_trainable_M": 10.55,
+    "weight_decay": 0.05,
+    "layer_decay": 0.65,
+    "warmup_epochs": 5,
+    "seed": 42
+  },
+  "seeds": {
+    "python": 42,
+    "numpy": 42,
+    "torch": 42,
+    "cuda": 42
+  },
+  "hardware": {
+    "gpu": "NVIDIA RTX A4000",
+    "cuda_version": "12.1",
+    "pytorch_version": "2.3.1+cu121"
+  },
+  "start_time": "2026-06-14T21:32:36.117877",
+  "end_time": "2026-06-14T21:52:02.838934",
+  "command": "python hpo_sweep.py --model tinyvit_11m --lr 0.0005"
+}

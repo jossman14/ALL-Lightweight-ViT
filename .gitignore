@@ -1,0 +1,69 @@
+# Data — never commit (see data/README.md for acquisition steps)
+data/
+*.bmp
+*.dcm
+*.nii
+
+# Model checkpoints — large binaries
+results/**/best_model.pt
+results/**/checkpoint_*.pt
+results/**/*.ckpt
+results/**/*.pth
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+
+# Virtualenv / conda
+venv/
+.venv/
+env/
+.env
+
+# Secrets
+.env
+.env.*
+*.token
+secrets.yaml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (large stdout logs)
+results/**/sweep_stdout.log
+results/**/nohup.out
+nohup.out
+
+# Wandb / MLflow artifacts
+wandb/
+mlruns/
+mlflow/
+
+# Large output artifacts (keep JSON/CSV metrics, exclude heavy files)
+results/**/predictions.csv
+results/**/attention_maps/
+results/**/gradcam/
+results/**/shap_values/

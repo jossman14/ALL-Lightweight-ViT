@@ -1,0 +1,22 @@
+{
+  "model": "edgenext_xs",
+  "model_key": "edgenext_x_small.in1k",
+  "lr": 0.0005,
+  "is_dinobloom": false,
+  "is_linear_probe": false,
+  "dinobloom_variant": null,
+  "status": "COMPLETE",
+  "best_val_bal_acc": 0.93021,
+  "best_epoch": 41,
+  "total_epochs": 56,
+  "batch_size": 32,
+  "peak_vram_mb": 4669.2,
+  "total_time_s": 1194.8,
+  "gpu_hours": 0.3319,
+  "n_params_M": 2.14,
+  "n_trainable_M": 2.14,
+  "weight_decay": 0.05,
+  "layer_decay": 0.65,
+  "warmup_epochs": 5,
+  "seed": 42
+}
