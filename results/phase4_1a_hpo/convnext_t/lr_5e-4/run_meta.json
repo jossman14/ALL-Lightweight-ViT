@@ -1,0 +1,39 @@
+{
+  "commit_sha": "21f003478264b19dd11e4d581b95610b5e2093ba",
+  "config": {
+    "model": "convnext_t",
+    "model_key": "convnext_tiny.fb_in1k",
+    "lr": 0.0005,
+    "is_dinobloom": false,
+    "is_linear_probe": false,
+    "dinobloom_variant": null,
+    "status": "COMPLETE",
+    "best_val_bal_acc": 0.94152,
+    "best_epoch": 44,
+    "total_epochs": 59,
+    "batch_size": 32,
+    "peak_vram_mb": 4241.0,
+    "total_time_s": 1504.6,
+    "gpu_hours": 0.4179,
+    "n_params_M": 27.82,
+    "n_trainable_M": 27.82,
+    "weight_decay": 0.05,
+    "layer_decay": 0.65,
+    "warmup_epochs": 5,
+    "seed": 42
+  },
+  "seeds": {
+    "python": 42,
+    "numpy": 42,
+    "torch": 42,
+    "cuda": 42
+  },
+  "hardware": {
+    "gpu": "NVIDIA RTX A4000",
+    "cuda_version": "12.1",
+    "pytorch_version": "2.3.1+cu121"
+  },
+  "start_time": "2026-06-15T02:21:57.173988",
+  "end_time": "2026-06-15T02:47:01.739829",
+  "command": "python hpo_sweep.py --model convnext_t --lr 0.0005"
+}

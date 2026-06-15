@@ -1,0 +1,39 @@
+{
+  "commit_sha": "21f003478264b19dd11e4d581b95610b5e2093ba",
+  "config": {
+    "model": "efficientformer_l1",
+    "model_key": "efficientformer_l1.snap_dist_in1k",
+    "lr": 5e-05,
+    "is_dinobloom": false,
+    "is_linear_probe": false,
+    "dinobloom_variant": null,
+    "status": "COMPLETE",
+    "best_val_bal_acc": 0.92303,
+    "best_epoch": 53,
+    "total_epochs": 68,
+    "batch_size": 32,
+    "peak_vram_mb": 3503.4,
+    "total_time_s": 1277.2,
+    "gpu_hours": 0.3548,
+    "n_params_M": 11.39,
+    "n_trainable_M": 11.39,
+    "weight_decay": 0.05,
+    "layer_decay": 0.65,
+    "warmup_epochs": 5,
+    "seed": 42
+  },
+  "seeds": {
+    "python": 42,
+    "numpy": 42,
+    "torch": 42,
+    "cuda": 42
+  },
+  "hardware": {
+    "gpu": "NVIDIA RTX A4000",
+    "cuda_version": "12.1",
+    "pytorch_version": "2.3.1+cu121"
+  },
+  "start_time": "2026-06-14T23:44:01.430861",
+  "end_time": "2026-06-15T00:05:18.672659",
+  "command": "python hpo_sweep.py --model efficientformer_l1 --lr 5e-05"
+}

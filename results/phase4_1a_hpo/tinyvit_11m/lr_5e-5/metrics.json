@@ -1,0 +1,22 @@
+{
+  "model": "tinyvit_11m",
+  "model_key": "tiny_vit_11m_224.dist_in22k_ft_in1k",
+  "lr": 5e-05,
+  "is_dinobloom": false,
+  "is_linear_probe": false,
+  "dinobloom_variant": null,
+  "status": "COMPLETE",
+  "best_val_bal_acc": 0.90774,
+  "best_epoch": 65,
+  "total_epochs": 80,
+  "batch_size": 32,
+  "peak_vram_mb": 3503.4,
+  "total_time_s": 1911.2,
+  "gpu_hours": 0.5309,
+  "n_params_M": 10.55,
+  "n_trainable_M": 10.55,
+  "weight_decay": 0.05,
+  "layer_decay": 0.65,
+  "warmup_epochs": 5,
+  "seed": 42
+}

@@ -1,0 +1,39 @@
+{
+  "commit_sha": "21f003478264b19dd11e4d581b95610b5e2093ba",
+  "config": {
+    "model": "dinobloom_base_lp",
+    "model_key": "dinobloom_base",
+    "lr": 0.0005,
+    "is_dinobloom": true,
+    "is_linear_probe": true,
+    "dinobloom_variant": "base",
+    "status": "COMPLETE",
+    "best_val_bal_acc": 0.81612,
+    "best_epoch": 18,
+    "total_epochs": 33,
+    "batch_size": 32,
+    "peak_vram_mb": 10808.9,
+    "total_time_s": 828.6,
+    "gpu_hours": 0.2302,
+    "n_params_M": 85.73,
+    "n_trainable_M": 0.0,
+    "weight_decay": 0.05,
+    "layer_decay": 0.65,
+    "warmup_epochs": 5,
+    "seed": 42
+  },
+  "seeds": {
+    "python": 42,
+    "numpy": 42,
+    "torch": 42,
+    "cuda": 42
+  },
+  "hardware": {
+    "gpu": "NVIDIA RTX A4000",
+    "cuda_version": "12.1",
+    "pytorch_version": "2.3.1+cu121"
+  },
+  "start_time": "2026-06-15T11:32:32.872971",
+  "end_time": "2026-06-15T11:46:21.438615",
+  "command": "python hpo_sweep.py --model dinobloom_base_lp --lr 0.0005"
+}

@@ -1,0 +1,22 @@
+{
+  "model": "dinobloom_small_ft",
+  "model_key": "dinobloom_small",
+  "lr": 1e-05,
+  "is_dinobloom": true,
+  "is_linear_probe": false,
+  "dinobloom_variant": "small",
+  "status": "COMPLETE",
+  "best_val_bal_acc": 0.91334,
+  "best_epoch": 36,
+  "total_epochs": 51,
+  "batch_size": 32,
+  "peak_vram_mb": 5519.6,
+  "total_time_s": 1562.1,
+  "gpu_hours": 0.4339,
+  "n_params_M": 21.63,
+  "n_trainable_M": 21.63,
+  "weight_decay": 0.05,
+  "layer_decay": 0.65,
+  "warmup_epochs": 5,
+  "seed": 42
+}

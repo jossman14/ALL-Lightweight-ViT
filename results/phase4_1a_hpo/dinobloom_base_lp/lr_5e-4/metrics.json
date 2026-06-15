@@ -1,0 +1,22 @@
+{
+  "model": "dinobloom_base_lp",
+  "model_key": "dinobloom_base",
+  "lr": 0.0005,
+  "is_dinobloom": true,
+  "is_linear_probe": true,
+  "dinobloom_variant": "base",
+  "status": "COMPLETE",
+  "best_val_bal_acc": 0.81612,
+  "best_epoch": 18,
+  "total_epochs": 33,
+  "batch_size": 32,
+  "peak_vram_mb": 10808.9,
+  "total_time_s": 828.6,
+  "gpu_hours": 0.2302,
+  "n_params_M": 85.73,
+  "n_trainable_M": 0.0,
+  "weight_decay": 0.05,
+  "layer_decay": 0.65,
+  "warmup_epochs": 5,
+  "seed": 42
+}
